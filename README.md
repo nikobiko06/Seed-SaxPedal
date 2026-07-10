@@ -58,6 +58,9 @@ I opened helper.py in vscode and changed the shebang #!/usr/bin/env python by ad
 
 I did not do solution 1 because I wasn't sure it would follow with the videos steps. So after doing what I described for solution 2, I re-ran the command to create a new project "./helper.py create ./MyProjects/AudioInputTest --board seed" ... and this time drum roll please ... IT WORKED!
 
+## Step 1.5 How to get audio in?
+...
+
 ## Step 2: Find voltage and current ratings of Daisy Seed
 
 I downloaded the documents from the Daisy seed website (https://daisy.audio/products/daisy-seed) of the Schematic, Pinout, and Data Sheet
@@ -66,21 +69,9 @@ and placed them into the DaisyExamples folder within a new folder called "seedDo
 What are the components on the seed? (I plan to download the data sheets on these)
 
 I am downloading KiCad so I can see the files for the Daisy Seed. Ok I'm having trouble opening them, I'm calling it for the night.
-~9p - 11:37p
+7/5: ~9p - 11:37p
 
-## Questions:
-What is helper py and why is it needed for creating a Daisy Seed project?
-My best guess: It's needed because when creating a new project, you need to copy from "/Users/nikopalanzi/Desktop/DaisyExamples/utils/Template" into the new project. 
 
-Why can I go through "python3 helper.py" but I am able to run ./helper.py in the raw terminal, within the DaisyExamples folder? What is the significance of "./"?
-What is zsh?
-What is Vim? What is the different from Neovim? How hard is it to get into, because I would like to try it instead of VsCode?
-What is the difference between python and python3 and why is there a completely separate code for it?
-What is the difference between -v and --version?
-My best answer: -v listed quite a lot of things, --version only listed the version "Python 3.9.6"
-What is a "shebang"?
-What is the significance of the helper.py being within "DaisyExamples"?
-BG: It just hit me that the daisy people wrote the script, so there's a chance they just made it and it's some automated thing that I don't know about.
 <!-- Pseudo Code: 
   Audio in
 
