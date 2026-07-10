@@ -7,10 +7,22 @@
 ## Important info 
 Pin 21: VCC
 Pin 20: Analog Gnd
+Pin 
 
-The MCU: STM32H750I8K
+Audio inputs
+Pin 16: Audio in 1 (L)
+Pin 17: Audio in 2 (R)
+Range: +/- 1.8v
+
+Audio Output Pin 
+Pin 18: Audio out 1
+PIn 19: Audio out 2
+
+According to the https://docs.daisy.audio/tutorials/_a3_Getting-Started-Audio/ The daisy uses line level, so we will need to build an amplifier.
+
+The MCU: STM32H750IBK https://www.st.com/resource/en/datasheet/stm32h750ib.pdf
 ALLIANCE MEMORY //Is info for these on the DATASHEET?
-PCM3050
+PCM3060: audio codec
 
 ### from DataSheet
 The Analog inputs to the Daisy Seed are AC coupled, this nice because I don't need an external decoupling cap. 
