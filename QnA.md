@@ -1,6 +1,6 @@
 ## Questions:
 
-[Text](URL)
+"[Text] ... (URL)"
 
 **bold**, *italic*
 
