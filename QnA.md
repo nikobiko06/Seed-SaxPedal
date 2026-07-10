@@ -6,6 +6,8 @@ Why use markdown and what can you do with it?
 
 "[Text] ... (URL)", "** bold **", "* italic *"
 
+For the Flowchart, is there any reason to store it in github, or should I store I store it in gdrive and just screenshot?
+
 ## Analog
 
 <!-- biasing, differential pairs, current mirrors, gain stages, frequency compensation, stability, output swing, noise, PSRR, CMRR, and layout awareness -->
