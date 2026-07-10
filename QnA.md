@@ -1,5 +1,9 @@
 ## Questions:
 
+[Text](URL)
+
+**bold**, *italic*
+
 What are the differences between analog and digital pins on a uC?
 
 How does the signal go from pins to uC?
