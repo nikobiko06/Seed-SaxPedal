@@ -3,17 +3,22 @@
 ## Formatting
 
 Why use markdown and what can you do with it?
+
 "[Text] ... (URL)", "** bold **", "* italic *"
 
-## uP
+## Analog
+
+<!-- biasing, differential pairs, current mirrors, gain stages, frequency compensation, stability, output swing, noise, PSRR, CMRR, and layout awareness -->
+
+What are the types of biasing for mic preamp into daisy seed?
+
+## uP/Programming
 
 What are the differences between analog and digital pins on a uC?
 
 How does the signal go from pins to uC?
 
 Where is the stack?
-
-## Programming
 
 What is a callback function?
 
