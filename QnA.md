@@ -1,5 +1,8 @@
 # Questions:
 
+
+Can I use the internal op amp on the MCU to amplify the mic level signals?
+
 ## Formatting
 
 Why use markdown and what can you do with it?
@@ -7,6 +10,7 @@ Why use markdown and what can you do with it?
 "[Text] ... (URL)", "** bold **", "* italic *"
 
 For the Flowchart, is there any reason to store it in github, or should I store I store it in gdrive and just screenshot?
+
 
 ## Analog
 
