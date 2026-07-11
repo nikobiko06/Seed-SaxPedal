@@ -18,11 +18,12 @@ Audio Output Pin
 Pin 18: Audio out 1
 PIn 19: Audio out 2
 
-According to the https://docs.daisy.audio/tutorials/_a3_Getting-Started-Audio/ The daisy uses line level, so we will need to build an amplifier.
+According to the [Getting Started Audio](https://docs.daisy.audio/tutorials/_a3_Getting-Started-Audio/) The daisy uses line level, so we will need to build an amplifier.
 
-The MCU: STM32H750IBK https://www.st.com/resource/en/datasheet/stm32h750ib.pdf
+The MCU: [STM32H750IBK](https://www.st.com/resource/en/datasheet/stm32h750ib.pdf)
 ALLIANCE MEMORY //Is info for these on the DATASHEET?
-PCM3060: audio codec
+
+Audio codec: [PCM306](https://www.ti.com/product/PCM3060?utm_source=google&utm_medium=cpc&utm_campaign=asc-null-null-GPN_EN-cpc-pf-google-ww_en_cons&utm_content=PCM3060&ds_k=PCM3060&DCM=yes&gclsrc=aw.ds&gad_source=1&gad_campaignid=14388345080&gbraid=0AAAAAC068F00zduT-L70csirQOA0pRUuU&gclid=CjwKCAjw08fSBhA7EiwAfbQTsM_J4O2CuS2IBD-OQ9q60dpyFXREgtSY21mRgnW7nJEMhmAIheO1ghoCpnwQAvD_BwE)
 
 ### from DataSheet
 The Analog inputs to the Daisy Seed are AC coupled, this nice because I don't need an external decoupling cap. 
@@ -42,7 +43,7 @@ Progress reports:
 
 ### Step 1: Learn how to create a Daisy seed project
 
-Following the video https://www.youtube.com/watch?v=uJ_pw5RYCm4 (I need to learn how to embed a link and give it a nice fancy name). 
+Following the [Creating Daisy project](https://www.youtube.com/watch?v=uJ_pw5RYCm4).
 
 Everything was going smoothly - except when trying to check if I have python on my Mac I ran "python3 -v" and it listed like a lot so I tried "python3 --version and it gave me what I needed :) - (I even messed around in python3 in the terminal by running "python3") until I tried to run ./helper.py...
 
